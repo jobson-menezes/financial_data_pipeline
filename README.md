@@ -35,6 +35,35 @@ The pipeline creates and populates the `cotacoes_dolar` table with the following
 
 ## 🚀 How to Run the Project
 
-1. Clone this repository:
-```bash
-git clone [https://github.com/jobson-menezes/financial_data_pipeline.git](https://github.com/jobson-menezes/financial_data_pipeline.git)
+1. **Clone this repository:**
+    ```bash
+    git clone https://github.com/jobson-menezes/financial_data_pipeline.git
+
+2. **Navigate to the project directory:**
+    ```bash
+    cd financial_data_pipeline
+
+3. **Create a virtual environment:**
+    ```bash
+    python -m venv venv
+
+4. **Activate the virtual environment:**
+    ```bash
+    venv\Scripts\activate    **#On Windows**
+    source venv/bin/activate   **#On Linux/Mac**
+
+5. **Install the required dependencies:**
+    ```bash
+    pip install requests pandas sqlalchemy
+
+6. **Run the ETL pipeline:**
+    ```bash
+    python pipeline.py
+
+Upon successful execution, a cambio.db SQLite file will be generated in the root directory.
+  
+
+
+
+
+
