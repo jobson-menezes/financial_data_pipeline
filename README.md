@@ -49,8 +49,11 @@ The pipeline creates and populates the `cotacoes_dolar` table with the following
 
 4. **Activate the virtual environment:**
     ```bash
-    venv\Scripts\activate    **#On Windows**
-    source venv/bin/activate   **#On Linux/Mac**
+  # On Windows (PowerShell)
+    venv\Scripts\activate
+
+  # On Linux/Mac
+    source venv/bin/activate
 
 5. **Install the required dependencies:**
     ```bash
